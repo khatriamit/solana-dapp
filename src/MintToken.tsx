@@ -96,6 +96,9 @@ function MintToken() {
                 <button onClick={checkBalance}>Check Balance</button>
                 <button onClick={sendToken}>Send Token</button>
             </div>
+            <p>check the transactions in the console</p>
+            <p>console for mac (cmd+option+j) </p>
+            <p>console for win/linux (ctr+shift+j) </p>
         </div>
     );
 }
